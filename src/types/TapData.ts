@@ -1,0 +1,34 @@
+export default interface TapData {
+    terminalNo: string;
+    stationNo: string;
+    transitType: string;
+    terminalUsage: string;
+    terminalTransitId: string;
+    terminalTransitedAt: string;
+    locationSampledAt: string;
+    locationLatitude: string;
+    locationLongitude: string;
+    transitScheme: string;
+    fareId: string;
+    fareAmount: number;
+    fareCurrency: string;
+    routeId: string;
+    tripId: string;
+    stopId: string;
+    productCd: string;
+    posDataCd: string;
+    encryption: string;
+    keyVersion: string;
+    keySerialNumber: string;
+    transitDateTime: string;
+    encryptedData: string;
+    hashedPan: string;
+    maskedPan: string;
+    iccData: string;
+    brandName: string;
+    isUploaded: boolean;
+    isTest: boolean;
+    isDenied: boolean;
+    createdAt: null;
+    updatedAt: null
+}
